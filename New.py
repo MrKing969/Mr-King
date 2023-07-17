@@ -1301,7 +1301,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrnisad-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://raw.githubusercontent.com/NisadTechBD/green.v2/main/Approval.txt").text
+	r1=requests.get("https://github.com/MrKing969/Mr-King/blob/main/Approved.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
